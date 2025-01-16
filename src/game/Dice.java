@@ -73,7 +73,7 @@ public class Dice extends ImageView implements ColorParser {
 		String colorString = parseColor(color);
 
 		if (RandomPip.mood.equals("hard") && !colorString.equals("black")) {
-		System.out.println("github.commit");
+		System.out.println("github.commitsdhbaskd");
 
 			Random rand = new Random();
 
