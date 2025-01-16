@@ -74,6 +74,7 @@ public class Dice extends ImageView implements ColorParser {
            System.out.println("mosa abo hosen");
            System.out.println("pushhhhhhhhhhhhhh");
            System.out.println("shhade0");
+           System.out.println("Last commit ayman");
 			Random rand = new Random();
 
 			for (int i = 0; i < dices.length; i++) {
