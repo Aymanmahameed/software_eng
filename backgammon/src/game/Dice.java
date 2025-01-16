@@ -72,6 +72,7 @@ public class Dice extends ImageView implements ColorParser {
 		if (RandomPip.mood.equals("hard") && !colorString.equals("black")) {
            System.out.println("pull ");
            System.out.println("mosa abo hosen");
+           System.out.println("pushhhhhhhhhhhhhh");
 			Random rand = new Random();
 
 			for (int i = 0; i < dices.length; i++) {
