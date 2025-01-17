@@ -2,7 +2,7 @@ package move;
 
 import java.util.LinkedList;
 
-import game_engine.Settings;
+import controller.Settings;
 import interfaces.ColorParser;
 import interfaces.ColorPerspectiveParser;
 import javafx.scene.paint.Color;

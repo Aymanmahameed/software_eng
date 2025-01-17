@@ -1,7 +1,7 @@
 package interfaces;
 
 import constants.PlayerPerspectiveFrom;
-import game_engine.Settings;
+import controller.Settings;
 import javafx.scene.paint.Color;
 
 /**
