@@ -37744,3 +37744,8 @@ Background Music Commands
 
 > [System] Trying to quit game.
 
+> [System] Welcome to Backgammon!
+> [System] Enter "/start" below to start a new game.
+> [System] Or enter "/help" for a list of possible commands.
+> [System] Trying to quit game.
+
