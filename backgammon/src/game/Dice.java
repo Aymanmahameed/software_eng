@@ -79,6 +79,7 @@ public class Dice extends ImageView implements ColorParser {
            System.out.println("second new one");
            System.out.println("5 new one");
            System.out.println("6new one");
+           System.out.println("7 new one");
 			Random rand = new Random();
 
 			for (int i = 0; i < dices.length; i++) {
