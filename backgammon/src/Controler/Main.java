@@ -41,6 +41,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		System.out.println("after MVC");
+		System.out.println("after mvc2");
 		RandomPip.runAll();
 //		System.out.println(RandomPip.firstRandomPipQ);
 //		System.out.println(RandomPip.secondRandomPipQ);
