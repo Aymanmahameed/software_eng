@@ -1,7 +1,7 @@
 package constants;
 
 /**
- * This enum represents the quadrant position of the Board in the Backgammon game.
+ * This enum represents the quadrant position of the Board in the Backgammon Model.
  * 
  * @teamname TeaCup
  * @author Bryan Sng, 17205050

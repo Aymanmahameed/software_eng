@@ -2,7 +2,7 @@ package move;
 
 import java.util.LinkedList;
 
-import game.Dice;
+import Model.Dice;
 
 /**
  * This class represents a single roll dice result with a number of moves derived from that result.

@@ -8,7 +8,7 @@ import java.util.Random;
 import constants.GameConstants;
 
 /**
- * This class controls the music functionalities of the game.
+ * This class controls the music functionalities of the Model.
  * 
  * @teamname TeaCup
  * @author Bryan Sng, 17205050

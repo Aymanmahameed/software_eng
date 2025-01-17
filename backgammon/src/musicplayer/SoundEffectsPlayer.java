@@ -3,7 +3,7 @@ package musicplayer;
 import javafx.scene.media.AudioClip;
 
 /**
- * This class controls the sound effects of the game.
+ * This class controls the sound effects of the Model.
  * 
  * @teamname TeaCup
  * @author Bryan Sng, 17205050

@@ -1,7 +1,8 @@
 package move;
 
 import java.util.LinkedList;
-import game_engine.Settings;
+
+import Controler.Settings;
 import interfaces.ColorParser;
 import interfaces.ColorPerspectiveParser;
 import javafx.scene.paint.Color;

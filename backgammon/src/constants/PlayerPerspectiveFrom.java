@@ -1,7 +1,7 @@
 package constants;
 
 /**
- * This enum represents the player's perspective in the Backgammon game.
+ * This enum represents the player's perspective in the Backgammon Model.
  * - Top - perspective from top.
  * - Bottom - perspective from bottom.
  * 

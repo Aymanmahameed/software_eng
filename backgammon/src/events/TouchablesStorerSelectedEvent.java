@@ -1,6 +1,6 @@
 package events;
 
-import game.TouchablesStorer;
+import Model.TouchablesStorer;
 import javafx.event.EventType;
 
 /**

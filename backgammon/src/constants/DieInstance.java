@@ -1,7 +1,7 @@
 package constants;
 
 /**
- * This enum represents the die instances in the Backgammon game.
+ * This enum represents the die instances in the Backgammon Model.
  * - Single - a single dice rolling which player first.
  * - Double - instance where the die result is a double, then summon another 2 more dices.
  * - Default - two die rolling player's moves.

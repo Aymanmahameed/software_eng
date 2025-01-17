@@ -1,7 +1,7 @@
 package constants;
 
 /**
- * This enum represents the moves of checkers in the Backgammon game.
+ * This enum represents the moves of checkers in the Backgammon Model.
  * 
  * @teamname TeaCup
  * @author Bryan Sng, 17205050

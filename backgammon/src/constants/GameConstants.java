@@ -42,10 +42,10 @@ public class GameConstants {
 	public static final boolean FORCE_TWO_CHECKER = false;
 	
 	/* Debug Crawford Rule */
-	// first game is crawford game, /restart to get to the game after crawford game.
+	// first Model is crawford Model, /restart to get to the Model after crawford Model.
 	public static final boolean FORCE_TEST_AFTER_CRAWFORD_RULE = false;
 	// this only sets the players score.
-	// Set FORCE_TEST_SINGLE to true, and you test if you can get a crawford game.
+	// Set FORCE_TEST_SINGLE to true, and you test if you can get a crawford Model.
 	// by make WHITE 8 -> 10.
 	public static final boolean FORCE_TEST_CRAWFORD_RULE = false;
 	
@@ -156,7 +156,7 @@ public class GameConstants {
 	 * @return the file input stream.
 	 */
 	private static InputStream getFile(String path) {
-		return GameConstants.class.getResourceAsStream("/game/" + path);
+		return GameConstants.class.getResourceAsStream("/Model/" + path);
 	}
 	
 	/**
@@ -233,8 +233,8 @@ public class GameConstants {
 	}
 	
 	/**
-	 * Returns board (game) background.
-	 * @return image of the game.
+	 * Returns board (Model) background.
+	 * @return image of the Model.
 	 */
 	public static Background getGameImage() {
 		InputStream input = getFile("img/board/brown.png");

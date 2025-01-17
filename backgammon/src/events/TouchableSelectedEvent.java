@@ -1,6 +1,6 @@
 package events;
 
-import game.Touchable;
+import Model.Touchable;
 import javafx.event.EventType;
 
 /**

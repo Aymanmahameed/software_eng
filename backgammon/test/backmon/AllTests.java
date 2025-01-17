@@ -1,19 +1,14 @@
 package backmon;
 import static org.junit.Assert.*;
 
-import game.RandomPip;
-
 import java.awt.Dimension;
 
 import org.junit.Test;
 
+import Controler.Settings;
+import Model.Question;
+import Model.RandomPip;
 import constants.GameConstants;
-
-//import game.History;
-
-import game.Question;
-
-import game_engine.Settings;
 
 
 
