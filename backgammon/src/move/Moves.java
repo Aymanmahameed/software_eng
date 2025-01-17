@@ -3,7 +3,7 @@ package move;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import modell.DieResults;
+import game.DieResults;
 import interfaces.ColorParser;
 import interfaces.InputValidator;
 import javafx.scene.paint.Color;
