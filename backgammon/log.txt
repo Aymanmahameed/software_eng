@@ -37767,3 +37767,41 @@ Background Music Commands
 > [System] Or enter "/help" for a list of possible commands.
 > [System] Trying to quit Model.
 
+> [System] Welcome to Backgammon!
+> [System] Enter "/start" below to start a new Model.
+> [System] Or enter "/help" for a list of possible commands.
+
+> [System] Starting Model...
+> [System] Max totalGames per Model set to 11.
+> [System] Difficulty level set to: easy
+
+> [System] Rolling...
+> [System] First player to move is: Tea.
+> [System] Roll dice result: [6, 2].
+> [System] Available moves:
+  Roll of 6
+      A. 8-2
+      B. 13-7
+      C. 24-18
+
+  Roll of 2
+      D. 6-4
+      E. 8-6
+      F. 13-11
+      G. 24-22
+
+  Roll of 8
+      H. 13-5
+      I. 24-16
+
+
+> [System] Moving...
+> [System] Moved checker from 6 to 4.
+> [System] Available moves:
+  Roll of 6
+      A. 8-2
+      B. 13-7
+      C. 24-18
+
+> [System] Trying to quit Model.
+
