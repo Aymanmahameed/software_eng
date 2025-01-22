@@ -75,7 +75,7 @@ public class AllTests {
 		assertEquals(q.getQuestion(), qu);
 
 	}
-
+   
 //	@Test
 //
 ////	public void test5() {
