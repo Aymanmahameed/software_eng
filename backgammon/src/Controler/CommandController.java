@@ -763,6 +763,7 @@ public class CommandController implements ColorParser, InputValidator, IndexOffs
 	 */
 	private void runQuitCommand() {
 		stage.fireEvent(new WindowEvent(infoPnl.getScene().getWindow(), WindowEvent.WINDOW_CLOSE_REQUEST));
+		
 	}
 	
 	private void runMusicCommand(String[] args) {
