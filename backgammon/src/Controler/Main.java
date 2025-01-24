@@ -43,7 +43,6 @@ public class Main extends Application {
 		System.out.println("after MVC");
 		System.out.println("after mvc2");
 		System.out.println("after mvc7");
-		System.out.println("commit");
 		RandomPip.runAll();
 //		System.out.println(RandomPip.firstRandomPipQ);
 //		System.out.println(RandomPip.secondRandomPipQ);
