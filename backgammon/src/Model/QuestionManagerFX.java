@@ -21,7 +21,7 @@ public class QuestionManagerFX extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
+    //aaa
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Question Manager");

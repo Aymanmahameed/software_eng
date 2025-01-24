@@ -47,7 +47,7 @@ public class AllTests {
 	}
 
 	@Test
-
+ ///aa
 	public void DifficultyTest() {
 
 		Settings.setDifficulty("hard");

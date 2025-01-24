@@ -32,7 +32,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-
+                               
 /**
  * This class represents the entire component of the application,
  * consisting of the Model components and the UI components.
@@ -74,7 +74,7 @@ public class MatchController extends GridPane implements ColorPerspectiveParser,
 		initApplication();
 		initGame();
 		style();
-		
+		//System.out.println("");
 		
 	}
 	
