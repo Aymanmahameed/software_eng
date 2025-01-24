@@ -474,9 +474,17 @@ public class MatchController extends GridPane implements ColorPerspectiveParser,
 	    });
 	    exitButton.setOnAction(event -> {
 	        System.out.println("Exiting the Model...");
-//	        primaryStage.close();
-	        cmd.runCommand("/quit");
+	        primaryStage.close();
+//	        cmd.runCommand("/quit");
+	        stage.close();
+	        
 	    });
+	    
+	    primaryStage.setOnCloseRequest(event ->{
+	    	primaryStage.close();
+	    	stage.close();
+	    });
+	    
 	}
 
 	// Method to create clean, flat buttons

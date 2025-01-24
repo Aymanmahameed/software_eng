@@ -1,14 +1,20 @@
 package backmon;
-import static org.junit.Assert.*;
+import Model.RandomPip;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import java.awt.Dimension;
 
 import org.junit.Test;
 
-import Controler.Settings;
-import Model.Question;
-import Model.RandomPip;
 import constants.GameConstants;
+import Model.GameRecord;
+
+import Model.Question;
+
+import Controler.Settings;
+
 
 
 
@@ -36,11 +42,13 @@ public class AllTests {
 
 		
 
+		/*fail("Not yet implemented");*/
+
 	}
 
 	@Test
 
-	public void test2() {
+	public void DifficultyTest() {
 
 		Settings.setDifficulty("hard");
 
@@ -48,11 +56,13 @@ public class AllTests {
 
 		assertEquals(Dif, Settings.getDifficulty());
 
+		/*fail("Not yet implemented");*/
+
 	}
 
 	@Test
 
-	public void test3() {
+	public void HalfBoardSizeTest() {
 
 		Dimension d = new Dimension();
 
@@ -66,7 +76,7 @@ public class AllTests {
 
 	@Test
 
-	public void test4() {
+	public void QuestionTest() {
 
 		Question q = new Question("are you here?", null, 0, null);
 
@@ -76,14 +86,14 @@ public class AllTests {
 
 	}
 
-//	@Test
-//
-////	public void test5() {
-////
-////		History h = new History("yosef", null, null);
-////
-////		assertEquals("yosef", h.getWinnerName());
-////
-////	}
+	@Test
+
+	public void gameRecordTest() {
+
+		GameRecord h = new GameRecord(null, "yosef", null, null, null);
+
+		assertEquals("yosef", h.getPlayer1Name());
+
+	}
 
 }

@@ -762,7 +762,11 @@ public class CommandController implements ColorParser, InputValidator, IndexOffs
 	 * Saves Model log and prompts player to quit before quitting application.
 	 */
 	private void runQuitCommand() {
-		stage.fireEvent(new WindowEvent(infoPnl.getScene().getWindow(), WindowEvent.WINDOW_CLOSE_REQUEST));
+		
+		WindowEvent we = new WindowEvent(infoPnl.getScene().getWindow(), WindowEvent.WINDOW_CLOSE_REQUEST);
+		System.out.println("fuckkkkkkkkkkk");
+		System.out.println(infoPnl.getScene().getWindow().getOnCloseRequest().toString());
+		stage.fireEvent(we);
 		
 	}
 	

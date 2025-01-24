@@ -139,6 +139,10 @@ public class QuizApp extends Application {
         });
 
         root.getChildren().add(submitButton);
+        ShapeFactory sf = new ShapeFactory();
+        Shape s = sf.getShape(question.getDifficulty());
+        s.draw();
+        
         return root;
     }
 
