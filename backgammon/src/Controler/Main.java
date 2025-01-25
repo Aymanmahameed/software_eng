@@ -43,8 +43,8 @@ public class Main extends Application {
 		System.out.println("after MVC");
 		System.out.println("after mvc2");
 		System.out.println("after mvc7");
-		System.out.println("ayman photos");
 		System.out.println("ayman photos2");
+		System.out.println("ayman photos");
 		RandomPip.runAll();
 //		System.out.println(RandomPip.firstRandomPipQ);
 //		System.out.println(RandomPip.secondRandomPipQ);
@@ -58,7 +58,7 @@ public class Main extends Application {
 		stage.setTitle("Backgammon");
 //		//////////////////
 	
-		
+//		fix bug		
 		
 //		//////////////////
 		stage.show();
