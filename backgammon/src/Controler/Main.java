@@ -46,6 +46,7 @@ public class Main extends Application {
 		System.out.println("ayman photos2");
 		System.out.println("ayman photos");
 		System.out.println("shhade new photos");
+		System.out.println("emjoy");
 		RandomPip.runAll();
 //		System.out.println(RandomPip.firstRandomPipQ);
 //		System.out.println(RandomPip.secondRandomPipQ);
