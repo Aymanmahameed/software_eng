@@ -74,7 +74,7 @@ public class MatchController extends GridPane implements ColorPerspectiveParser,
 		initApplication();
 		initGame();
 		style();
-		//System.out.println("");
+		System.out.println("");
 		
 	}
 	
