@@ -156,6 +156,7 @@ public class Dice extends ImageView implements ColorParser {
 			for (int i = 0; i < dices.length; i++) {
 				if(path[i] == result) { 	
 					result = i + 1;
+//					remap the path to the dice 
 				}
 				
 			}
