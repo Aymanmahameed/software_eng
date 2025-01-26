@@ -18,7 +18,7 @@ public class DoublingCubeStorer extends TouchablesStorer {
 	 */
 	public void initCube() {
 		removeCube();
-		
+//		DoublingCube
 		push(new DoublingCube());
 		drawCube();
 	}
