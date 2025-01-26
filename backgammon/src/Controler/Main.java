@@ -45,6 +45,7 @@ public class Main extends Application {
 		System.out.println("after mvc7");
 		System.out.println("ayman photos2");
 		System.out.println("ayman photos");
+		System.out.println("shhade new photos");
 		RandomPip.runAll();
 //		System.out.println(RandomPip.firstRandomPipQ);
 //		System.out.println(RandomPip.secondRandomPipQ);
