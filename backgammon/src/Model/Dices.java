@@ -18,6 +18,8 @@ import javafx.scene.paint.Color;
  * @author Braddy Yeoh, 17357376
  *
  */
+
+// check hard level
 public class Dices extends HBox implements ColorParser {
 	private Dice[] dices;
 	private Color color;
