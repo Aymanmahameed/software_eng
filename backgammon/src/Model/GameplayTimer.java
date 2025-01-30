@@ -156,4 +156,10 @@ public class GameplayTimer extends Label {
 			remainingTime = 4;
 		else remainingTime = TOTAL_PLAY_TIME;
 	}
+	public void reTimer() {
+		if (GameConstants.FORCE_OUT_OF_TIME)
+			remainingTime = 4;
+		else remainingTime = TOTAL_PLAY_TIME;
+		
+	}
 }

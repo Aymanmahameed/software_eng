@@ -175,5 +175,10 @@ public class Emoji extends ImageView {
 		System.out.println("Its contents: " + Arrays.toString(file.listFiles()));
 	}
 	
+	@SuppressWarnings("unused")
+	private void validateIsFile(File file) {
+		System.out.println("img path: " + file.getAbsolutePath());
+		System.out.println("is img file: " + file.isFile());
+	}
 
 }
