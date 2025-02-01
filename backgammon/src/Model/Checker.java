@@ -80,4 +80,27 @@ public class Checker extends ImageView implements ColorParser, Touchable {
 	public Color getColor() {
 		return color;
 	}
+	
+	/**
+	 * - Get the image of the checker.
+	 */
+	private void iIm(boolean isIcon) {
+		String colorString = parseColor(color);
+		if (isIcon) colorString += "_icon";
+		InputStream input1 = getClass().getResourceAsStream("img/checkers/" + colorString + "_checkers.png");
+		InputStream input2 = getClass().getResourceAsStream("img/checkers/" + colorString + "_checkers_highlighted.png");
+		img = new Image(input1);
+		imgHighlighted = new Image(input2);
+		try {
+			input1.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		try {
+			input2.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		setNormalImage();
+	}
 }
