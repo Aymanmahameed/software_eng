@@ -579,6 +579,16 @@ public class CommandController implements ColorParser, InputValidator, IndexOffs
 			}
 		}
 	}
+	private String getFN(String[] args) {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 2; i < args.length; i++) {
+			sb.append(args[i]);
+			
+			if (i != args.length-1)
+				sb.append(" ");
+		}
+		return sb.toString();
+	}
 	
 	/**
 	 * Command: /decline
