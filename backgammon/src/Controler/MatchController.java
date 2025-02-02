@@ -486,6 +486,19 @@ public class MatchController extends GridPane implements ColorPerspectiveParser,
 	    });
 	    
 	}
+	
+//	 * Style MainController (i.e. root).
+	 
+	public void make_style() {
+		//setStyle("-fx-font-size: " + GameConstants.FONT_SIZE + "px; -fx-font-family: '" + GameConstants.FONT_FAMILY + "';");
+		setBackground(GameConstants.getTableImage());
+		setPadding(new Insets(10));
+		setVgap(GameConstants.getUIVGap());
+		setHgap(5);
+		setAlignment(Pos.CENTER);
+		setMaxSize(GameConstants.getScreenSize().getWidth(), GameConstants.getScreenSize().getHeight());
+		
+	}
 
 	// Method to create clean, flat buttons
 	private Button createFlatButton(String text, String bgColor) {
